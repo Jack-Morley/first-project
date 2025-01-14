@@ -1,15 +1,15 @@
 .content {
     text-align: center;
 }
-
+/*Nav bar*/
 nav {
     border-style: solid;
     border-color: gainsboro
 }
-
+/*user review cards*/
 .card {
     width: 18rem;
-    border-radius: 50%;
+    margin:3px;
 }
 
 .card-body {
@@ -17,6 +17,11 @@ nav {
     overflow-y: auto;
 }
 
+.card-title {
+    border-radius: 1rem;
+    background-color: gainsboro;
+}
+/*Footer*/
 footer {
     background-color: gainsboro;
     width: 100%;

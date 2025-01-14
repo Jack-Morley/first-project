@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="main">
+        <!--Navigation bar to direct the viewer to specific parts of the website-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-lg-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -17,6 +18,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <!--Navigation links-->
                     <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -27,7 +29,7 @@
                     <a class="nav-link" href="#user-experiences">User experiences</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">MAIN CONTENT</a>
+                    <a class="nav-link" href="#main-content">MAIN CONTENT</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact us</a>
@@ -40,19 +42,20 @@
             <h1>MAIN HEADING</h1>
 
             <hr>
-
+            <!--Welcome section of the website to introduce the viewer to the site-->
             <div id="welcome">
                 <h2>Welcome!</h2>
                 <p class="lead">leading paragraph</p>
             </div>
 
             <hr>
-
+            <!--User Experiences-->
             <div id="user-experiences">
                 <h2>User experiences</h2>
                 <p class="lead">leading paragraph</p>
-                <div class="row align-items-start">
-                    <div class="card col">
+                <div class="row justify-content-center">
+                    <!--Cards containing user stories-->
+                    <div class="card col-10 col-md-3">
                         <div class="card-body">
                             <h5 class="card-title">NAME</h5>
                             <p class="card-text">
@@ -60,7 +63,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card col">
+                    <div class="card col-10 col-md-3">
                         <div class="card-body">
                             <h5 class="card-title">NAME</h5>
                             <p class="card-text">
@@ -68,7 +71,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card col">
+                    <div class="card col-10 col-md-3">
                         <div class="card-body">
                             <h5 class="card-title">NAME</h5>
                             <p class="card-text">
@@ -80,7 +83,14 @@
             </div>
 
             <hr>
+            <!--The main content of the website-->
+            <div id="main-content">
+                <h2>Main content</h2>
+                <p class="lead">leading paragraph</p>
+            </div>
 
+            <hr>
+            <!--The footer of the website-->
             <footer id="contact" class="fixed-bottom">
                 <p>FOOTER</p>
             </footer>
