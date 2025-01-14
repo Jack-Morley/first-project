@@ -1,0 +1,23 @@
+.content {
+    text-align: center;
+}
+
+nav {
+    border-style: solid;
+    border-color: gainsboro
+}
+
+.card {
+    width: 18rem;
+    border-radius: 50%;
+}
+
+.card-body {
+    height: 10rem;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: gainsboro;
+    width: 100%;
+}
