@@ -1,10 +1,16 @@
 .content {
     text-align: center;
+    background-color: rgb(241 241 241);
 }
 /*Nav bar*/
 nav {
     border-style: solid;
     border-color: gainsboro
+}
+
+.lead {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 /*user review cards*/
 .card {
