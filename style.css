@@ -7,10 +7,21 @@ nav {
     border-style: solid;
     border-color: gainsboro
 }
+/*Background-image*/
+.background-image {
+    background-image: url(the-sea.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 .lead {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#welcome > .lead {
+    color: azure;
 }
 /*user review cards*/
 .card {
