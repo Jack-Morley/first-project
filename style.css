@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    min-height: 100%;
+}
+
 .content {
     text-align: center;
     background-color: rgb(241 241 241);
@@ -43,10 +48,15 @@ nav {
     width: 33%;
     border-radius: 50%;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
 /*Footer*/
 footer {
     background-color: gainsboro;
+    height: 6em;
     width: 100%;
-    position: relative;
-    bottom: 0;
+    margin-top: auto;
 }
