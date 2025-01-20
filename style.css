@@ -38,6 +38,11 @@ nav {
     border-radius: 1rem;
     background-color: gainsboro;
 }
+
+.profile {
+    width: 33%;
+    border-radius: 50%;
+}
 /*Footer*/
 footer {
     background-color: gainsboro;
